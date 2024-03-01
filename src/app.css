@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+	scroll-behavior: smooth;
+}
+
+* {
+	font-family: 'Roboto', 'sans-serif';
+	scroll-behavior: smooth;
+	scrollbar-width: thin;
+}
+
+h1, h2, h3, .poppins {
+	font-family: 'Poppins', 'sans-serif';
+}
+
+::-webkit-scrollbar {
+	width: 4px;
+}
+
+
+::-webkit-scrollbar-thumb {
+	background: #2cb67d;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #7f5af0;
+}
+
+*::-webkit-scrollbar-thumb {
+	background: #2cb67d;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+	background: #7f5af0;
+}

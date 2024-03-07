@@ -20,8 +20,19 @@
 			</h2>
 
 			<p class="w-5/6 md:w-auto mx-auto break-words text-base sm:text-lg md:text-xl mt-2 lg:mt-0 ">
-				My <span class="text-[#7f5af0] underline decoration-[#2cb67d]">favorite tech</span> includes
-				Next.JS/SvelteKit, TailwindCSS, Node.JS + Express.JS & PostgreSQL or Firebase/Firestore!
+				I develop compelling
+				<span class="underline decoration-[#7f5af0]">
+					web	
+				</span>
+				and
+				<span class="underline decoration-[#7f5af0]">
+					mobile	
+				</span>
+				experiences, 
+				<span class="underline decoration-[#2cb67d] ">
+					custom-built	
+				</span>
+				 apps tailored for your unique needs.
 			</p>
 			
 			<div class="flex flex-col lg:flex-row lg:items-center gap-4 lg:gap-16 mt-4 lg:mt-0 ">

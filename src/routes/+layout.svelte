@@ -16,10 +16,10 @@
 
 <div class="relative flex flex-col max-w-[1440px] mx-auto w-full text-sm sm:text-base min-h-screen">
 	
-	<div class={"fixed bottom-0 right-0  duration-200 flex p-10 z-[10] " + (
+	<div class={"fixed bottom-0 right-0  duration-200 flex p-6 sm:p-10 z-[10] " + (
 		y > 0 ? ' opacity-full pointer-events-auto' : ' pointer-events-none opacity-0'
 	)}>
-		<button on:click={goTop} class="ml-auto rounded-full bg-[#7f5af0] text-[#fffffe] px-3 sm:px-4 aspect-square shadow duration-200 hover:bg-[#2cb67d] cursor-pointer">
+		<button on:click={goTop} class="ml-auto rounded-full bg-[#7f5af0] text-[#fffffe] px-4 aspect-square shadow duration-200 hover:bg-[#2cb67d] cursor-pointer">
 			<i class="fa-solid fa-arrow-up grid place-items-center" />
 		</button>
 	</div>

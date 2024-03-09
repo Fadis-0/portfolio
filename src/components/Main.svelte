@@ -52,30 +52,30 @@
 				<div class="flex justify-center gap-4 lg:gap-8 ">
 					<i class="text-xl lg:text-2xl fa-brands fa-github"></i>
 					<i class="text-xl lg:text-2xl fa-brands fa-linkedin"></i>
+					<i class="text-xl lg:text-2xl fa-brands fa-upwork"></i>
 					<i class="text-xl lg:text-2xl fa-brands fa-whatsapp"></i>
-					<i class="text-xl lg:text-2xl fa-brands fa-dev"></i>
 				</div>
 			</div>
 		</div>
 
-		<div class="relative grid place-items-center">
+		<div class="relative grid place-items-center mt-6">
 			<img src={"images/avatar.webp"} alt="avatar image" class="object-cover z-{2} max-h-[70vh]" />
 		</div>
 
 	</section>
 
-	<section id="projects" class="py-20 lg:py-32 flex flex-col gap-24">
-		<div class="flex flex-col gap-2 text-center">
-			<h6 class="text-lg sm:text-xl md:text-2xl">
+	<section id="projects" class="py-8 lg:py-32 flex flex-col gap-24">
+		<div class="flex flex-col text-center">
+			<h6 class="text-md sm:text-xl md:text-2xl">
 				some things i've built
 			</h6>
-			<h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
+			<h3 class="font-semibold text-2xl sm:text-4xl md:text-5xl">
 				Curious to <h2 class="poppins bg-gradient-to-r from-[#2cb67d] to-green-400 inline-block text-transparent bg-clip-text">see</h2> my work?
 			</h3>
 
 		</div>
 
-		<Project />
+		
 		
 		
 	</section>

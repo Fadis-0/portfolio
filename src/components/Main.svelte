@@ -11,7 +11,7 @@
 </script>
 
 <main class="flex flex-col flex-1 p-4">
-	<section id="home" class="grid grid-cols-1 lg:grid-cols-2 gap-16 py-12 sm:py-14 md:pl-5">
+	<section id="home" class="grid grid-cols-1 lg:grid-cols-2 gap-16 py-12 sm:py-16 md:pl-5">
 		<div class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10">
 			<h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
 				<h2 class="poppins bg-gradient-to-r from-[#2cb67d] to-green-400 inline-block text-transparent bg-clip-text">Fadi </h2>
@@ -58,7 +58,7 @@
 			</div>
 		</div>
 
-		<div class="relative grid place-items-center mt-6">
+		<div class="relative grid place-items-center mt-5">
 			<img src={"images/avatar.webp"} alt="avatar image" class="object-cover z-{2} max-h-[70vh]" />
 		</div>
 

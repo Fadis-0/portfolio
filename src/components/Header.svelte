@@ -1,5 +1,12 @@
 <script>
+	import AnimatedHamburger from './AnimatedHamburger.svelte';
+
 	export let y;
+
+	export let open = false;
+	export let onClick = () => {
+		open = !open;
+	}
 
 	let tabs = [
 		{name: "Home", link: "#home"},
@@ -27,7 +34,7 @@
 
 <header 
 	bind:clientHeight
-	class={"sticky z-[10] top-0 duration-200 px-6 flex items-center justify-between " + (
+	class={"sticky z-[10] top-0 duration-200 pl-6 pr-3 sm:px-6 flex items-center justify-between " + (
 		y > 0 ? " py-4  backdrop-blur" : " py-6 bg-transparent border-transparent"
 	)}
 	class:-translate-y-full={offscreen} 
@@ -61,6 +68,9 @@
 			<i class="fa-solid fa-envelope ml-2" />
 		</h4>
 	</a>
+	<div class="sm:hidden ">
+		<AnimatedHamburger {open} {onClick} />
+	</div>
 
 
 </header>
